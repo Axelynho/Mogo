@@ -213,3 +213,68 @@ h1, h2, h3, h4, h5 ,h6 {
     font-size: 24px;
     font-weight: 700;
 }
+
+/* Section */
+.section {
+    padding: 80px 0;
+}
+
+.section_header {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+
+    text-align: center;
+}
+
+.section_uptitle {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: rgb(100, 51, 60);
+}
+
+.section_title {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(100, 51, 60);
+    text-transform: uppercase;
+}
+
+.section_title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 6px;
+    margin: 20px auto 20px;
+
+    background-color: rgb(100, 51, 60);
+}
+
+.section_text {
+    color: rgb(100, 51, 60);
+    font-size: 15px;
+}
+
+/* About */
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_item {
+    width: 380px;
+}
+
+.about_item:hover .about_img img {
+    opacity: .7;
+}
+
+.about_img {
+    background: linear-gradient(to bottom,#f38181,#fce38a);
+}
+
+.about_img img {
+    display: block;
+    transition: opacity .1 linear;
+}
+
