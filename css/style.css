@@ -250,6 +250,11 @@ hr {
     background-size: cover;
 }
 
+.section--map {
+    padding: 40px 0;
+    background: url(../images/map-bg.jpg)
+}
+
 .section_header {
     width: 100%;
     max-width: 950px;
@@ -838,4 +843,35 @@ hr {
     display: inline-block;
     vertical-align: top;
     margin-right: 10px;
+}
+
+/* Map */
+.map {
+    text-align: center;
+}
+
+.map_title {
+    font-size: 24px;
+    color: rgb(100, 51, 60);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.map_title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.map_title a:hover {
+    text-decoration: underline;
+}
+
+.map_title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 6px;
+    margin: 15px auto 20px;
+
+    background-color: rgb(100, 51, 60);
 }
