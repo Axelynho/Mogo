@@ -875,3 +875,22 @@ hr {
 
     background-color: rgb(100, 51, 60);
 }
+
+/* Footer */
+.footer {
+    padding-top: 65px;
+    background-color: #f8f8f8;
+}
+
+.footer_logo {
+    margin-bottom: 30px;
+    font-size: 46px;
+    font-weight: 700;
+    color: rgb(134, 90, 99);
+}
+
+.footer_text {
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: rgb(134, 90, 99);
+}
