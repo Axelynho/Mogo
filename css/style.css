@@ -1106,6 +1106,27 @@ hr {
     .intro_title {
         font-size: 80px;
     }
+    /* Stat */
+    .stat {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .stat_item {
+        flex: none;
+        width: 28%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border: 0;
+    }
+    .stat_item:last-child {
+        border: 0;
+    }
+     /* Stat */
+     .stat_item {
+        width: 28%;
+        border-bottom: 1px solid #5e8b83;
+    }
 }
 
 
@@ -1145,6 +1166,11 @@ hr {
     .slider_item.active:before {
         width: 50%;
     }
+     /* Stat */
+     .stat_item {
+        width: 26%;
+        border-bottom: 1px solid #5e8b83;
+    }
 }
 
 @media (max-width: 575px) {
@@ -1172,5 +1198,13 @@ hr {
 
     .section_title:after {
         margin: 20px auto;
+    }
+    /* Stat */
+    .stat_item {
+        width: 100%;
+        border-bottom: 1px solid #5e8b83;
+    }
+    .stat_count {
+        font-size: 52px;
     }
 }
