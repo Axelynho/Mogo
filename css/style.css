@@ -1112,6 +1112,11 @@ hr {
         display: none;
     }
 
+    /* Section */
+    .section {
+        padding: 40px 0;
+    }
+
     /* Slider */
     .slider_text {
         display: none;
@@ -1130,5 +1135,22 @@ hr {
 
     .intro_title {
         font-size: 40px;
+    }
+
+    /* Section */
+    .section_header {
+        margin-bottom: 50px;
+    }
+
+    .section_uptitle {
+        font-size: 20px;
+    }
+
+    .section_title {
+        font-size: 24px;
+    }
+
+    .section_title:after {
+        margin: 20px auto;
     }
 }
