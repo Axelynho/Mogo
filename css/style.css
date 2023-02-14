@@ -1187,6 +1187,18 @@ hr {
         padding-left: 175px;
 
     }
+    /* Clients */
+    .clients {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .clients_item {
+        width: 100%;
+        padding-right: 0;
+    }
+    .clients_item:last-child {
+        margin-bottom: 0;
+    }
 }
 
 
@@ -1283,6 +1295,14 @@ hr {
      .reviews_author {
         font-size: 20px;
      }
+     /* Works */
+     .works {
+        flex-wrap: wrap;
+     }
+     .works_col {
+        flex: none;
+        width: 50%;
+     }
 }
 
 @media (max-width: 575px) {
@@ -1350,4 +1370,20 @@ hr {
      .logos_img {
         margin: 0 auto;
      }
+      /* Works */
+     .works_col {
+        width: 100%;
+     }
+     /* Clients */
+    .clients_photo {
+        position: static;
+    }
+    .clients_item {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    .clients_text:before {
+        margin: 15px auto;
+    }
 }
