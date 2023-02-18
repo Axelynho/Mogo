@@ -89,7 +89,7 @@ hr {
 
 .header {
     width: 100%;
-    padding-top: 30px;
+    padding-top: 10px;
     position: absolute;
     top: 0;
     left: 0;
@@ -98,6 +98,7 @@ hr {
 }
 
 .header.fixed {
+    padding: 10px 0;
     background-color: #eb8b8d;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 
