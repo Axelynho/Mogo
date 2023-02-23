@@ -193,6 +193,10 @@ hr {
     z-index: 1;
 }
 
+.nav_toggle:focus {
+    outline: 0;
+}
+
 .nav_toggle_item {
     display: block;
     width: 100%;
