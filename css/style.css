@@ -664,6 +664,7 @@ hr {
  }
 
 .reviews_item {
+    min-height: 210px;
     padding-left: 255px;
     position: relative;
 }
@@ -703,9 +704,12 @@ hr {
     background-color: #5e8b83;
 }
 
-.reviews_btn {
+.reviews_btn,
+.slick-arrow {
     font-size: 0;
     color: transparent;
+    border: 0;
+    background: none;
     position: absolute;
     top: 50%;
     z-index: 1;
@@ -722,12 +726,14 @@ hr {
     border-left: 3px solid rgb(100, 51, 60);
 }
 
-.reviews_btn--prev {
+.reviews_btn--prev,
+.slick-prev {
     left: 0;
     transform:rotate(-45deg);
 }
 
-.reviews_btn--next {
+.reviews_btn--next,
+.slick-next {
     right: 0;
     transform:rotate(135deg);
 }

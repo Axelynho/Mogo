@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/50bd0d22b9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <title>VoidFall</title>
 </head>
 <body>
@@ -262,13 +263,22 @@
         <div class="container">
 
             <div class="reviews">
-                <a class="reviews_btn reviews_btn--prev" href="#">Prev</a>
-                <a class="reviews_btn reviews_btn--next" href="#">Next</a>
+                <div data-slider>
+                    <div>
+                        <div class="reviews_item">
+                            <img class="reviews_photo" src="images/reviews.png" alt="">
+                            <div class="reviews_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsum adipisci eum beatae corporis fuga vitae expedita et est, pariatur in dolorem accusamus suscipit vel!</div>
+                            <div class="reviews_author">Jonh Doe</div>
+                        </div>
+                     </div>
 
-                <div class="reviews_item">
-                    <img class="reviews_photo" src="images/reviews.png" alt="">
-                    <div class="reviews_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsum adipisci eum beatae corporis fuga vitae expedita et est, pariatur in dolorem accusamus suscipit vel!</div>
-                    <div class="reviews_author">Jonh Doe</div>
+                    <div>
+                        <div class="reviews_item">
+                            <img class="reviews_photo" src="images/reviews.png" alt="">
+                            <div class="reviews_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsum adipisci eum beatae corporis fuga vitae expedita et est, pariatur in dolorem accusamus suscipit vel!</div>
+                            <div class="reviews_author">Jonh Doe</div>
+                        </div>
+                    </div>
                 </div>
             </div>   
         </div>
@@ -749,6 +759,7 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="main.js"></script>
 
 </body>
